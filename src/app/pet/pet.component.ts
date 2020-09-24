@@ -21,6 +21,7 @@ export class PetComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log("init pet");
   }
 
 }
