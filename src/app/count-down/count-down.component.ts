@@ -31,6 +31,7 @@ export class CountDownComponent implements OnInit, OnChanges, OnDestroy {
   start(){
     this.startTimes = setInterval(()=>{
       this._seconds--;
+      this.isCountDown();
     }, 1000)
   }
 
