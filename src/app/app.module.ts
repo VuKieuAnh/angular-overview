@@ -2,10 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { KieuanhxinhComponent } from './kieuanhxinh/kieuanhxinh.component';
+import { PetComponent } from './pet/pet.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    KieuanhxinhComponent,
+    PetComponent
   ],
   imports: [
     BrowserModule
